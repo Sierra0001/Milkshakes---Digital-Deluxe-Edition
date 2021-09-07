@@ -33,7 +33,7 @@ Wow, so balanced.
 ### Links
 
 - [Current Version](https://github.com/Sierra0001/Milkshakes---Digital-Deluxe-Edition/releases/tag/v1.0)
-- [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=2594428074)
+- [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=2595980371)
 - [GitHub](https://github.com/Sierra0001/Milkshakes---Digital-Deluxe-Edition)
 
 ### Credits
