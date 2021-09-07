@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef>
+    <defName>Sierra_MakeMilkshakeSmall</defName>
+    <label>make milkshakes x2</label>
+    <description>Make milkshakes, a tasty and healthy treat.</description>
+    <jobString>Making milkshakes.</jobString>
+    <workAmount>450</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+  	<allowMixingIngredients>true</allowMixingIngredients>
+		<targetCountAdjustment>1</targetCountAdjustment>
+    <recipeUsers>
+      <li>FueledStove</li>
+      <li>ElectricStove</li>
+		</recipeUsers>
+    <ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Milk</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+    <products>
+      <Sierra_Milkshake>2</Sierra_Milkshake>
+    </products>
+    <skillRequirements>
+        <Cooking>4</Cooking>
+    </skillRequirements>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>Sierra_MakeMilkshakeMedium</defName>
+    <label>make milkshakes x6</label>
+    <description>Make milkshakes, a delicious and healthy treat.\n\nThis recipe takes longer to complete but is more efficient in its use of ingredients.</description>
+    <jobString>Making milkshakes.</jobString>
+    <workAmount>1125</workAmount> <!-- x2.5 the basic recipe -->
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+  	<allowMixingIngredients>true</allowMixingIngredients>
+		<targetCountAdjustment>1</targetCountAdjustment>
+    <recipeUsers>
+      <li>FueledStove</li>
+      <li>ElectricStove</li>
+		</recipeUsers>
+    <ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Milk</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>
+		</ingredients>
+    <products>
+      <Sierra_Milkshake>6</Sierra_Milkshake>
+    </products>
+    <skillRequirements>
+        <Cooking>5</Cooking>
+    </skillRequirements>
+  </RecipeDef>
+
+  </Defs>

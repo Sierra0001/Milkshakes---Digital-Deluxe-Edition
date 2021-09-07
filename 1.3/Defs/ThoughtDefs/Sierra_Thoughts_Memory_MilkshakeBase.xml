@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThoughtDef>
+    <defName>Sierra_Thought_DrankMilkshake</defName>
+    <durationDays>0.5</durationDays>
+    <stages>
+      <li>
+        <label>drank milkshake</label>
+        <description>That was nice. Maybe I'll have another soon?</description>
+        <baseMoodEffect>1</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>

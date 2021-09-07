@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>Sierra_AmbrosiaMilkshake</defName>
+    <label>ambrosia milkshake</label>
+    <description>A sweet shaken drink. Needs little preperation and fulfills the need for recreation, but it is not very nutritious and deteriorate quickly if not preserved.\n\nUnlike the fruit, the milkshake does not cause addiction.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Sierra_AmbrosiaMilkshake</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.88</drawSize>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <costList>
+      <Milk>3</Milk>
+    </costList>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <MarketValue>26.5125</MarketValue> <!-- Milk x1.5 (1.9) + Ambrosia x1.5 (15) + Herbal Medicine (10) -> 75% -->
+      <Mass>0.075</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>16</DeteriorationRate>
+      <Nutrition>0.5</Nutrition>
+    </statBases>
+    <tickerType>Rare</tickerType>
+    <thingCategories>
+      <li>Sierra_Milkshakes</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>DesperateOnly</preferability>
+			<tasteThought>Sierra_Thought_DrankAmbrosiaMilkshake</tasteThought>
+      <foodType>Processed</foodType>
+      <joy>0.65</joy>
+      <joyKind>Gluttonous</joyKind>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <ingestSound>Meal_Eat</ingestSound>
+      <!--<outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>AmbrosiaHigh</hediffDef>
+          <severity>0.25</severity>
+          <toleranceChemical>Ambrosia</toleranceChemical>
+        </li>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>AmbrosiaTolerance</hediffDef>
+          <severity>0.016</severity>
+          <divideByBodySize>true</divideByBodySize>
+        </li>
+      </outcomeDoers>-->
+    </ingestible>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>0.75</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>

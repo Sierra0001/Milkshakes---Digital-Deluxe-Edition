@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef>
+    <defName>Sierra_MakeChocolateMilkshakeSmall</defName>
+    <label>make chocolate milkshakes x2</label>
+    <description>Make chocolate milkshakes, a delicious and healthy treat.</description>
+    <jobString>Making chocolate milkshakes.</jobString>
+    <workAmount>450</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+  	<allowMixingIngredients>true</allowMixingIngredients>
+		<targetCountAdjustment>1</targetCountAdjustment>
+    <recipeUsers>
+      <li>FueledStove</li>
+      <li>ElectricStove</li>
+		</recipeUsers>
+    <ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Milk</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chocolate</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+		</ingredients>
+    <products>
+      <Sierra_ChocolateMilkshake>2</Sierra_ChocolateMilkshake>
+    </products>
+    <skillRequirements>
+        <Cooking>4</Cooking>
+    </skillRequirements>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>Sierra_MakeChocolateMilkshakeMedium</defName>
+    <label>make chocolate milkshakes x6</label>
+    <description>Make chocolate milkshakes, a delicious and healthy treat.\n\nThis recipe takes longer to complete but is more efficient in its use of ingredients.</description>
+    <jobString>Making chocolate milkshakes.</jobString>
+    <workAmount>1125</workAmount> <!-- x2.5 the basic recipe -->
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+  	<allowMixingIngredients>true</allowMixingIngredients>
+		<targetCountAdjustment>1</targetCountAdjustment>
+    <recipeUsers>
+      <li>FueledStove</li>
+      <li>ElectricStove</li>
+		</recipeUsers>
+    <ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Milk</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chocolate</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
+      </li>
+		</ingredients>
+    <products>
+      <Sierra_ChocolateMilkshake>6</Sierra_ChocolateMilkshake>
+    </products>
+    <skillRequirements>
+        <Cooking>5</Cooking>
+    </skillRequirements>
+  </RecipeDef>
+
+  </Defs>

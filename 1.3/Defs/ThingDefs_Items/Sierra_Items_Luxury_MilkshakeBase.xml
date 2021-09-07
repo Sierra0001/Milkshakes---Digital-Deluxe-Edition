@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>Sierra_Milkshake</defName>
+    <label>milkshake</label>
+    <description>A tasty shaken drink. Needs little preperation and fulfills the need for recreation, but it is not very nutritious and deteriorate quickly if not preserved.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Sierra_Milkshake</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.88</drawSize>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <costList>
+      <Milk>3</Milk>
+    </costList>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <MarketValue>2.1375</MarketValue> <!-- Milk x1.5 (1.9) -> 75% -->
+      <Mass>0.075</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>16</DeteriorationRate>
+      <Nutrition>0.5</Nutrition>
+    </statBases>
+    <tickerType>Rare</tickerType>
+    <thingCategories>
+      <li>Sierra_Milkshakes</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>DesperateOnly</preferability>
+			<tasteThought>Sierra_Thought_DrankMilkshake</tasteThought>
+      <foodType>Processed</foodType>
+      <joy>0.5</joy>
+      <joyKind>Gluttonous</joyKind>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>0.75</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>

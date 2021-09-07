@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef>
+    <defName>Sierra_MakeAmbrosiaMilkshakeSmall</defName>
+    <label>make ambrosia milkshakes x2</label>
+    <description>Make ambrosia milkshakes, a sweet and healthy treat.\n\nExtra care is taken during the preparation process to negate chemical effects of the fruit.</description>
+    <jobString>Making ambrosia milkshakes.</jobString>
+    <workAmount>585</workAmount> <!-- x1.3 the normal amount -->
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+  	<allowMixingIngredients>true</allowMixingIngredients>
+		<targetCountAdjustment>1</targetCountAdjustment>
+    <recipeUsers>
+      <li>FueledStove</li>
+      <li>ElectricStove</li>
+		</recipeUsers>
+    <ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Milk</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Ambrosia</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MedicineHerbal</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+		</ingredients>
+    <products>
+      <Sierra_AmbrosiaMilkshake>2</Sierra_AmbrosiaMilkshake>
+    </products>
+    <skillRequirements>
+        <Cooking>4</Cooking>
+    </skillRequirements>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>Sierra_MakeAmbrosiaMilkshakeMedium</defName>
+    <label>make ambrosia milkshakes x6</label>
+    <description>Make ambrosia milkshakes, a sweet and healthy treat.\n\nThis recipe takes longer to complete but is more efficient in its use of ingredients.\n\nExtra care is taken during the preparation process to negate chemical effects of the fruit.</description>
+    <jobString>Making ambrosia milkshakes.</jobString>
+    <workAmount>1462.5</workAmount> <!-- x2.5 the basic recipe -->
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+  	<allowMixingIngredients>true</allowMixingIngredients>
+		<targetCountAdjustment>1</targetCountAdjustment>
+    <recipeUsers>
+      <li>FueledStove</li>
+      <li>ElectricStove</li>
+		</recipeUsers>
+    <ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Milk</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Ambrosia</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MedicineHerbal</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+		</ingredients>
+    <products>
+      <Sierra_AmbrosiaMilkshake>6</Sierra_AmbrosiaMilkshake>
+    </products>
+    <skillRequirements>
+        <Cooking>5</Cooking>
+    </skillRequirements>
+  </RecipeDef>
+
+  </Defs>
