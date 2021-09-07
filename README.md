@@ -1,4 +1,4 @@
-# Milkshakes - Ambrosia Edition
+# Milkshakes - Digital Deluxe Edition
 
 My milkshake brings all the modders to the yard.
 
