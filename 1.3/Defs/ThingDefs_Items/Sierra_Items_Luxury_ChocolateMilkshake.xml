@@ -24,7 +24,7 @@
       <Mass>0.075</Mass>
       <Flammability>1.0</Flammability>
       <DeteriorationRate>16</DeteriorationRate>
-      <Nutrition>0.6</Nutrition>
+      <Nutrition>0.15</Nutrition>
     </statBases>
     <tickerType>Rare</tickerType>
     <thingCategories>

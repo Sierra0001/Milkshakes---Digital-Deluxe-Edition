@@ -20,7 +20,7 @@ Grants Mood Buff (2) for 18 hours after consumption.
 
 - Ambrosia Milkshakes
 
-Grants Mood Buff (3) for 30 hours after consumption.
+Grants Mood Buff (3) for 24 hours after consumption.
 
 ### Balance
 
