@@ -32,7 +32,7 @@ Wow, so balanced.
 
 ### Links
 
-- [Current Version](https://github.com/Sierra0001/Milkshakes---Digital-Deluxe-Edition/releases/tag/v1.0)
+- [Current Version](https://github.com/Sierra0001/Milkshakes---Digital-Deluxe-Edition/releases/tag/v1.1)
 - [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=2595980371)
 - [GitHub](https://github.com/Sierra0001/Milkshakes---Digital-Deluxe-Edition)
 
@@ -44,3 +44,5 @@ SirLalaPyon for his amazing, high-quality vanilla styled art.
 
 - [RimWorld 1.3] RimWorld 1.3 Ready. (v1.0)
 - [Release] Initial release. (v1.0)
+- [Fix] Pawns will now willingly drink milkshake for recreation. (v1.1)
+- [Change] Milkshake consumption is now it's own JoyKind. (v1.1)

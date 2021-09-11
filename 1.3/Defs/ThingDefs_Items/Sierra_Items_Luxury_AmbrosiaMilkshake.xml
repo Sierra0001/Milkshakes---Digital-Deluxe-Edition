@@ -33,21 +33,9 @@
 			<tasteThought>Sierra_Thought_DrankAmbrosiaMilkshake</tasteThought>
       <foodType>Processed</foodType>
       <joy>0.65</joy>
-      <joyKind>Gluttonous</joyKind>
+      <joyKind>Sierra_Drinking_Milkshake</joyKind>
       <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
       <ingestSound>Meal_Eat</ingestSound>
-      <!--<outcomeDoers>
-        <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>AmbrosiaHigh</hediffDef>
-          <severity>0.25</severity>
-          <toleranceChemical>Ambrosia</toleranceChemical>
-        </li>
-        <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>AmbrosiaTolerance</hediffDef>
-          <severity>0.016</severity>
-          <divideByBodySize>true</divideByBodySize>
-        </li>
-      </outcomeDoers>-->
     </ingestible>
     <tradeability>Buyable</tradeability>
     <comps>

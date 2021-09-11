@@ -35,7 +35,7 @@
 			<tasteThought>Sierra_Thought_DrankBerryMilkshake</tasteThought>
       <foodType>Processed</foodType>
       <joy>0.60</joy>
-      <joyKind>Gluttonous</joyKind>
+      <joyKind>Sierra_Drinking_Milkshake</joyKind>
       <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
       <ingestSound>Meal_Eat</ingestSound>
     </ingestible>
