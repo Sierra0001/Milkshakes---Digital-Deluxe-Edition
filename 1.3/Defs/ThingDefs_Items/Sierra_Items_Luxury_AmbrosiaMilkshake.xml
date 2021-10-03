@@ -4,7 +4,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>Sierra_AmbrosiaMilkshake</defName>
     <label>ambrosia milkshake</label>
-    <description>A sweet shaken drink. Needs little preperation and fulfills the need for recreation, but it is not very nutritious and deteriorate quickly if not preserved.\n\nUnlike the fruit, the milkshake does not cause addiction.</description>
+    <description>A sweet shaken drink. Needs little preparation and fulfills the need for recreation, but it is not very nutritious and deteriorate quickly if not preserved.\n\nUnlike the fruit, the milkshake does not cause addiction.</description>
     <graphicData>
       <texPath>Things/Item/Resource/Sierra_AmbrosiaMilkshake</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
