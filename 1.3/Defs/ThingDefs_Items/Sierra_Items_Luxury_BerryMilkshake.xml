@@ -4,7 +4,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>Sierra_BerryMilkshake</defName>
     <label>berry milkshake</label>
-    <description>A delightful shaken drink. Needs little preperation and fulfills the need for recreation, but it is not very nutritious and deteriorate quickly if not preserved.</description>
+    <description>A delightful shaken drink. Needs little preparation and fulfills the need for recreation, but it is not very nutritious and deteriorate quickly if not preserved.</description>
     <graphicData>
       <texPath>Things/Item/Resource/Sierra_BerryMilkshake</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
