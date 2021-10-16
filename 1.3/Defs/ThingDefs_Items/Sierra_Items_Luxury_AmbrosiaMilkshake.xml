@@ -14,15 +14,17 @@
     <soundDrop>Standard_Drop</soundDrop>
     <socialPropernessMatters>true</socialPropernessMatters>
     <costList>
-      <Milk>3</Milk>
+      <Milk>2</Milk>
+      <Ambrosia>1</Ambrosia>
+      <MedicineHerbal>1</MedicineHerbal>
     </costList>
     <statBases>
       <MaxHitPoints>60</MaxHitPoints>
-      <MarketValue>26.5125</MarketValue> <!-- Milk x1.5 (1.9) + Ambrosia x1.5 (15) + Herbal Medicine (10) -> 75% -->
-      <Mass>0.075</Mass>
+      <MarketValue>46</MarketValue> <!-- Total Value = Raw Ingredients Used x1.5 Rounded Down-->
+      <Mass>0.19</Mass> <!-- Rough Estimate based on ingredients -->
       <Flammability>1.0</Flammability>
-      <DeteriorationRate>16</DeteriorationRate>
-      <Nutrition>0.12</Nutrition>
+      <DeteriorationRate>8</DeteriorationRate> <!-- Reference: Rough Mid-Point Basic Ingredient vs Special Ingredient(s) -->
+      <Nutrition>0.45</Nutrition> <!-- Total Nutrition = Raw Nutrition Used x1.5-->
     </statBases>
     <tickerType>Rare</tickerType>
     <thingCategories>
@@ -32,7 +34,7 @@
       <preferability>DesperateOnly</preferability>
 			<tasteThought>Sierra_Thought_DrankAmbrosiaMilkshake</tasteThought>
       <foodType>Processed</foodType>
-      <joy>0.65</joy>
+      <joy>0.65</joy> <!-- Basic Joy Item + Special Ingredient Bonus -->
       <joyKind>Sierra_Drinking_Milkshake</joyKind>
       <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
       <ingestSound>Meal_Eat</ingestSound>
@@ -40,7 +42,7 @@
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="CompProperties_Rottable">
-        <daysToRotStart>0.75</daysToRotStart>
+        <daysToRotStart>3</daysToRotStart> <!-- Spoils 25% quicker than meals -->
         <rotDestroys>true</rotDestroys>
       </li>
     </comps>

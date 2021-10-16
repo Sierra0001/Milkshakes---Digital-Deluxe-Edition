@@ -14,15 +14,15 @@
     <soundDrop>Standard_Drop</soundDrop>
     <socialPropernessMatters>true</socialPropernessMatters>
     <costList>
-      <Milk>3</Milk>
+      <Milk>2</Milk>
     </costList>
     <statBases>
       <MaxHitPoints>60</MaxHitPoints>
-      <MarketValue>2.1375</MarketValue> <!-- Milk x1.5 (1.9) -> 75% -->
-      <Mass>0.075</Mass>
+      <MarketValue>9</MarketValue> <!-- Total Value = Raw Ingredients Used x1.5 Rounded Down-->
+      <Mass>0.090</Mass> <!-- Rough Estimate based on ingredients -->
       <Flammability>1.0</Flammability>
-      <DeteriorationRate>16</DeteriorationRate>
-      <Nutrition>0.1</Nutrition>
+      <DeteriorationRate>9</DeteriorationRate> <!-- Reference: Basic Ingredient -->
+      <Nutrition>0.15</Nutrition> <!-- Total Nutrition = Raw Nutrition Used x1.5-->
     </statBases>
     <tickerType>Rare</tickerType>
     <thingCategories>
@@ -32,7 +32,7 @@
       <preferability>DesperateOnly</preferability>
 			<tasteThought>Sierra_Thought_DrankMilkshake</tasteThought>
       <foodType>Processed</foodType>
-      <joy>0.5</joy>
+      <joy>0.15</joy> <!-- Basic Joy Item -->
       <joyKind>Sierra_Drinking_Milkshake</joyKind>
       <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
       <ingestSound>Meal_Eat</ingestSound>
@@ -40,7 +40,7 @@
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="CompProperties_Rottable">
-        <daysToRotStart>0.75</daysToRotStart>
+        <daysToRotStart>3</daysToRotStart> <!-- Spoils 25% quicker than meals -->
         <rotDestroys>true</rotDestroys>
       </li>
     </comps>

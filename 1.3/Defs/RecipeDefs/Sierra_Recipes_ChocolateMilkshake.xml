@@ -3,10 +3,10 @@
 
   <RecipeDef>
     <defName>Sierra_MakeChocolateMilkshakeSmall</defName>
-    <label>make chocolate milkshakes x2</label>
-    <description>Make chocolate milkshakes, a delicious and healthy treat.</description>
-    <jobString>Making chocolate milkshakes.</jobString>
-    <workAmount>450</workAmount>
+    <label>make chocolate milkshake</label>
+    <description>Make chocolate milkshake, a delicious and healthy treat.</description>
+    <jobString>Making chocolate milkshake.</jobString>
+    <workAmount>300</workAmount> <!-- Reference: Simple Meal -->
     <workSpeedStat>CookSpeed</workSpeedStat>
     <workSkill>Cooking</workSkill>
     <effectWorking>Cook</effectWorking>
@@ -24,7 +24,7 @@
 						<li>Milk</li>
 					</thingDefs>
 				</filter>
-				<count>3</count>
+				<count>2</count>
 			</li>
       <li>
         <filter>
@@ -32,11 +32,11 @@
             <li>Chocolate</li>
           </thingDefs>
         </filter>
-        <count>3</count>
+        <count>1</count>
       </li>
 		</ingredients>
     <products>
-      <Sierra_ChocolateMilkshake>2</Sierra_ChocolateMilkshake>
+      <Sierra_ChocolateMilkshake>1</Sierra_ChocolateMilkshake>
     </products>
     <skillRequirements>
         <Cooking>4</Cooking>
@@ -45,10 +45,10 @@
 
   <RecipeDef>
     <defName>Sierra_MakeChocolateMilkshakeMedium</defName>
-    <label>make chocolate milkshakes x6</label>
-    <description>Make chocolate milkshakes, a delicious and healthy treat.\n\nThis recipe takes longer to complete but is more efficient in its use of ingredients.</description>
+    <label>make chocolate milkshakes x4</label>
+    <description>Make chocolate milkshakes, a delicious and healthy treat.\n\nThis is a batch recipe that utilise a slightly more efficient production process.</description>
     <jobString>Making chocolate milkshakes.</jobString>
-    <workAmount>1125</workAmount> <!-- x2.5 the basic recipe -->
+    <workAmount>1050</workAmount> <!-- Batch Bonus 3.5x -->
     <workSpeedStat>CookSpeed</workSpeedStat>
     <workSkill>Cooking</workSkill>
     <effectWorking>Cook</effectWorking>
@@ -74,14 +74,14 @@
             <li>Chocolate</li>
           </thingDefs>
         </filter>
-        <count>8</count>
+        <count>4</count>
       </li>
 		</ingredients>
     <products>
-      <Sierra_ChocolateMilkshake>6</Sierra_ChocolateMilkshake>
+      <Sierra_ChocolateMilkshake>4</Sierra_ChocolateMilkshake>
     </products>
     <skillRequirements>
-        <Cooking>5</Cooking>
+        <Cooking>5</Cooking> <!-- Cooking for people is harder than cooking for just yourself -->
     </skillRequirements>
   </RecipeDef>
 

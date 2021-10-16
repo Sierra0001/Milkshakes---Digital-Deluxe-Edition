@@ -3,10 +3,10 @@
 
   <RecipeDef>
     <defName>Sierra_MakeBerryMilkshakeSmall</defName>
-    <label>make berry milkshakes x2</label>
-    <description>Make berry milkshakes, a delightful and healthy treat.</description>
-    <jobString>Making berry milkshakes.</jobString>
-    <workAmount>450</workAmount>
+    <label>make berry milkshake</label>
+    <description>Make berry milkshake, a delightful and healthy treat.</description>
+    <jobString>Making berry milkshake.</jobString>
+    <workAmount>300</workAmount> <!-- Reference: Simple Meal -->
     <workSpeedStat>CookSpeed</workSpeedStat>
     <workSkill>Cooking</workSkill>
     <effectWorking>Cook</effectWorking>
@@ -24,7 +24,7 @@
 						<li>Milk</li>
 					</thingDefs>
 				</filter>
-				<count>3</count>
+				<count>2</count>
 			</li>
       <li>
         <filter>
@@ -32,11 +32,11 @@
             <li>RawBerries</li>
           </thingDefs>
         </filter>
-        <count>3</count>
+        <count>1</count>
       </li>
 		</ingredients>
     <products>
-      <Sierra_BerryMilkshake>2</Sierra_BerryMilkshake>
+      <Sierra_BerryMilkshake>1</Sierra_BerryMilkshake>
     </products>
     <skillRequirements>
         <Cooking>4</Cooking>
@@ -45,10 +45,10 @@
 
   <RecipeDef>
     <defName>Sierra_MakeBerryMilkshakeMedium</defName>
-    <label>make berry milkshakes x6</label>
-    <description>Make berry milkshakes, a delightful and healthy treat.\n\nThis recipe takes longer to complete but is more efficient in its use of ingredients.</description>
+    <label>make berry milkshakes x4</label>
+    <description>Make berry milkshakes, a delightful and healthy treat.\n\nThis is a batch recipe that utilise a slightly more efficient production process.</description>
     <jobString>Making berry milkshakes.</jobString>
-    <workAmount>1125</workAmount> <!-- x2.5 the basic recipe -->
+    <workAmount>1050</workAmount> <!-- Batch Bonus 3.5x -->
     <workSpeedStat>CookSpeed</workSpeedStat>
     <workSkill>Cooking</workSkill>
     <effectWorking>Cook</effectWorking>
@@ -74,14 +74,14 @@
             <li>RawBerries</li>
           </thingDefs>
         </filter>
-        <count>8</count>
+        <count>4</count>
       </li>
 		</ingredients>
     <products>
-      <Sierra_BerryMilkshake>6</Sierra_BerryMilkshake>
+      <Sierra_BerryMilkshake>4</Sierra_BerryMilkshake>
     </products>
     <skillRequirements>
-        <Cooking>5</Cooking>
+        <Cooking>5</Cooking> <!-- Cooking for people is harder than cooking for just yourself -->
     </skillRequirements>
   </RecipeDef>
 

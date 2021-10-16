@@ -3,10 +3,10 @@
 
   <RecipeDef>
     <defName>Sierra_MakeAmbrosiaMilkshakeSmall</defName>
-    <label>make ambrosia milkshakes x2</label>
-    <description>Make ambrosia milkshakes, a sweet and healthy treat.\n\nExtra care is taken during the preparation process to negate chemical effects of the fruit.</description>
-    <jobString>Making ambrosia milkshakes.</jobString>
-    <workAmount>585</workAmount> <!-- x1.3 the normal amount -->
+    <label>make ambrosia milkshake</label>
+    <description>Make ambrosia milkshake, a sweet and healthy treat.\n\nExtra care is taken during the preparation process to negate chemical effects of the fruit.</description>
+    <jobString>Making ambrosia milkshake.</jobString>
+    <workAmount>300</workAmount> <!-- Reference: Simple Meal -->
     <workSpeedStat>CookSpeed</workSpeedStat>
     <workSkill>Cooking</workSkill>
     <effectWorking>Cook</effectWorking>
@@ -24,7 +24,7 @@
 						<li>Milk</li>
 					</thingDefs>
 				</filter>
-				<count>3</count>
+				<count>2</count>
 			</li>
       <li>
         <filter>
@@ -32,7 +32,7 @@
             <li>Ambrosia</li>
           </thingDefs>
         </filter>
-        <count>3</count>
+        <count>1</count>
       </li>
       <li>
         <filter>
@@ -44,7 +44,7 @@
       </li>
 		</ingredients>
     <products>
-      <Sierra_AmbrosiaMilkshake>2</Sierra_AmbrosiaMilkshake>
+      <Sierra_AmbrosiaMilkshake>1</Sierra_AmbrosiaMilkshake>
     </products>
     <skillRequirements>
         <Cooking>4</Cooking>
@@ -53,10 +53,10 @@
 
   <RecipeDef>
     <defName>Sierra_MakeAmbrosiaMilkshakeMedium</defName>
-    <label>make ambrosia milkshakes x6</label>
-    <description>Make ambrosia milkshakes, a sweet and healthy treat.\n\nThis recipe takes longer to complete but is more efficient in its use of ingredients.\n\nExtra care is taken during the preparation process to negate chemical effects of the fruit.</description>
+    <label>make ambrosia milkshakes x4</label>
+    <description>Make ambrosia milkshakes, a sweet and healthy treat.\n\nExtra care is taken during the preparation process to negate chemical effects of the fruit.\n\nThis is a batch recipe that utilise a slightly more efficient production process.</description>
     <jobString>Making ambrosia milkshakes.</jobString>
-    <workAmount>1462.5</workAmount> <!-- x2.5 the basic recipe -->
+    <workAmount>1050</workAmount> <!-- Batch Bonus 3.5x -->
     <workSpeedStat>CookSpeed</workSpeedStat>
     <workSkill>Cooking</workSkill>
     <effectWorking>Cook</effectWorking>
@@ -82,7 +82,7 @@
             <li>Ambrosia</li>
           </thingDefs>
         </filter>
-        <count>8</count>
+        <count>4</count>
       </li>
       <li>
         <filter>
@@ -90,14 +90,14 @@
             <li>MedicineHerbal</li>
           </thingDefs>
         </filter>
-        <count>3</count>
+        <count>4</count>
       </li>
 		</ingredients>
     <products>
-      <Sierra_AmbrosiaMilkshake>6</Sierra_AmbrosiaMilkshake>
+      <Sierra_AmbrosiaMilkshake>4</Sierra_AmbrosiaMilkshake>
     </products>
     <skillRequirements>
-        <Cooking>5</Cooking>
+        <Cooking>5</Cooking> <!-- Cooking for people is harder than cooking for just yourself -->
     </skillRequirements>
   </RecipeDef>
 

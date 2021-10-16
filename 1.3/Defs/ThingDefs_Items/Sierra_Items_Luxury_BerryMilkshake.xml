@@ -9,22 +9,21 @@
       <texPath>Things/Item/Resource/Sierra_BerryMilkshake</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <drawSize>0.88</drawSize>
-      <!--<color>(135,100,80)</color>-->
     </graphicData>
     <soundInteract>Standard_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
     <socialPropernessMatters>true</socialPropernessMatters>
     <costList>
-      <Milk>3</Milk>
-      <Chocolate>1</Chocolate>
+      <Milk>2</Milk>
+      <RawBerries>1</RawBerries>
     </costList>
     <statBases>
       <MaxHitPoints>60</MaxHitPoints>
-      <MarketValue>3.4875</MarketValue> <!-- Milk x1.5 (1.9) + Berries x1.5 (1.2) -> 75% -->
-      <Mass>0.075</Mass>
+      <MarketValue>11</MarketValue> <!-- Total Value = Raw Ingredients Used x1.5 Rounded Down-->
+      <Mass>0.117</Mass> <!-- Rough Estimate based on ingredients -->
       <Flammability>1.0</Flammability>
-      <DeteriorationRate>16</DeteriorationRate>
-      <Nutrition>0.15</Nutrition>
+      <DeteriorationRate>8</DeteriorationRate> <!-- Reference: Rough Mid-Point Basic Ingredient vs Special Ingredient(s) -->
+      <Nutrition>0.225</Nutrition> <!-- Total Nutrition = Raw Nutrition Used x1.5-->
     </statBases>
     <tickerType>Rare</tickerType>
     <thingCategories>
@@ -34,7 +33,7 @@
       <preferability>DesperateOnly</preferability>
 			<tasteThought>Sierra_Thought_DrankBerryMilkshake</tasteThought>
       <foodType>Processed</foodType>
-      <joy>0.60</joy>
+      <joy>0.20</joy> <!-- Basic Joy Item + Special Ingredient Bonus -->
       <joyKind>Sierra_Drinking_Milkshake</joyKind>
       <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
       <ingestSound>Meal_Eat</ingestSound>
@@ -42,7 +41,7 @@
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="CompProperties_Rottable">
-        <daysToRotStart>0.75</daysToRotStart>
+        <daysToRotStart>3</daysToRotStart> <!-- Spoils 25% quicker than meals -->
         <rotDestroys>true</rotDestroys>
       </li>
     </comps>
