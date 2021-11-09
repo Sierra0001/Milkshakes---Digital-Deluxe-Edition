@@ -2,7 +2,7 @@
 
 My milkshake brings all the modders to the yard.
 
-This mod adds 4 new craftable recreation/luxury food.
+This mod adds 6 new craftable recreation/luxury food.
 
 ### Features
 
