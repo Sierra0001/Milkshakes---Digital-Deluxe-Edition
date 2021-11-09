@@ -9,6 +9,9 @@
       <li>Sierra_Milkshake</li>
       <li>Sierra_AmbrosiaMilkshake</li>
       <li>Sierra_BerryMilkshake</li>
+      <li>Sierra_MixedBerryMilkshake</li>
+      <li>Sierra_BlueberryMilkshake</li>
+      <li>Sierra_StrawberryMilkshake</li>
       <li>Sierra_ChocolateMilkshake</li>
     </thingDefs>
     <joyKind>Sierra_Drinking_Milkshake</joyKind>

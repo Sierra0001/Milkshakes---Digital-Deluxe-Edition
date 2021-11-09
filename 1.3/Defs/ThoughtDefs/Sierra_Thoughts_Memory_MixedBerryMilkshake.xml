@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThoughtDef>
+    <defName>Sierra_Thought_DrankMixedBerryMilkshake</defName>
+    <durationDays>0.75</durationDays>
+    <stages>
+      <li>
+        <label>drank mixed berry milkshake</label>
+        <description>That was a blast. Maybe I'll have another soon?</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>Sierra_Thought_DrankBlueberryMilkshake</defName>
+    <durationDays>0.75</durationDays>
+    <stages>
+      <li>
+        <label>drank blueberry milkshake</label>
+        <description>Ooh! That was delightful.</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>Sierra_Thought_DrankStrawberryMilkshake</defName>
+    <durationDays>0.75</durationDays>
+    <stages>
+      <li>
+        <label>drank strawberry milkshake</label>
+        <description>Mmm. That was delicious. I should have it again later!</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>

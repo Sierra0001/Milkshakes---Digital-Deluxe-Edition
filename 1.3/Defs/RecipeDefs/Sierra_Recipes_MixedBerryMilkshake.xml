@@ -2,10 +2,10 @@
 <Defs>
 
   <RecipeDef>
-    <defName>Sierra_MakeBerryMilkshakeSmall</defName>
-    <label>make berry milkshake</label>
-    <description>Make berry milkshake, a delightful and healthy treat.</description>
-    <jobString>Making berry milkshake.</jobString>
+    <defName>Sierra_MakeMixedBerryMilkshakeSmall</defName>
+    <label>make mixed berry milkshake</label>
+    <description>Make mixed berry milkshake, a delightful and healthy treat.</description>
+    <jobString>Making mixed berry milkshake.</jobString>
     <workAmount>300</workAmount> <!-- Reference: Simple Meal -->
     <workSpeedStat>CookSpeed</workSpeedStat>
     <workSkill>Cooking</workSkill>
@@ -13,10 +13,10 @@
     <soundWorking>Recipe_CookMeal</soundWorking>
   	<allowMixingIngredients>true</allowMixingIngredients>
 		<targetCountAdjustment>1</targetCountAdjustment>
-    <!--<recipeUsers>
+    <recipeUsers>
       <li>FueledStove</li>
       <li>ElectricStove</li>
-		</recipeUsers>-->
+		</recipeUsers>
     <ingredients>
 			<li>
 				<filter>
@@ -36,7 +36,7 @@
       </li>
 		</ingredients>
     <products>
-      <Sierra_BerryMilkshake>1</Sierra_BerryMilkshake>
+      <Sierra_MixedBerryMilkshake>1</Sierra_MixedBerryMilkshake>
     </products>
     <skillRequirements>
         <Cooking>4</Cooking>
@@ -44,10 +44,10 @@
   </RecipeDef>
 
   <RecipeDef>
-    <defName>Sierra_MakeBerryMilkshakeMedium</defName>
-    <label>make berry milkshakes x4</label>
-    <description>Make berry milkshakes, a delightful and healthy treat.\n\nThis is a batch recipe that utilise a slightly more efficient production process.</description>
-    <jobString>Making berry milkshakes.</jobString>
+    <defName>Sierra_MakeMixedBerryMilkshakeMedium</defName>
+    <label>make mixed berry milkshakes x4</label>
+    <description>Make mixed berry milkshakes, a delightful and healthy treat.\n\nThis is a batch recipe that utilise a slightly more efficient production process.</description>
+    <jobString>Making mixed berry milkshakes.</jobString>
     <workAmount>1050</workAmount> <!-- Batch Bonus 3.5x -->
     <workSpeedStat>CookSpeed</workSpeedStat>
     <workSkill>Cooking</workSkill>
@@ -55,10 +55,10 @@
     <soundWorking>Recipe_CookMeal</soundWorking>
   	<allowMixingIngredients>true</allowMixingIngredients>
 		<targetCountAdjustment>1</targetCountAdjustment>
-    <!--<recipeUsers>
+    <recipeUsers>
       <li>FueledStove</li>
       <li>ElectricStove</li>
-		</recipeUsers>-->
+		</recipeUsers>
     <ingredients>
 			<li>
 				<filter>
@@ -78,7 +78,7 @@
       </li>
 		</ingredients>
     <products>
-      <Sierra_BerryMilkshake>4</Sierra_BerryMilkshake>
+      <Sierra_MixedBerryMilkshake>4</Sierra_MixedBerryMilkshake>
     </products>
     <skillRequirements>
         <Cooking>5</Cooking> <!-- Cooking for people is harder than cooking for just yourself -->
