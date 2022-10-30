@@ -34,7 +34,7 @@ Wow, so balanced.
 
 ### Links
 
-- [Current Version](https://github.com/Sierra0001/Milkshakes---Digital-Deluxe-Edition/releases/tag/v1.3)
+- [Current Version](https://github.com/Sierra0001/Milkshakes---Digital-Deluxe-Edition/releases/tag/v1.4)
 - [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=2595980371)
 - [GitHub](https://github.com/Sierra0001/Milkshakes---Digital-Deluxe-Edition)
 
@@ -44,7 +44,4 @@ SirLalaPyon for his amazing, high-quality vanilla styled art.
 
 ### Latest Changes
 
-- [New] Added Blueberry Milkshake.
-- [New] Added Strawberry Milkshake.
-- [New] Added Mixed Berry Milkshake.
-- [Removed] Removed old Berry Milkshake recipe (No new bills using the old recipe can be created).
+- [RimWorld 1.4] RimWorld 1.4 Ready.

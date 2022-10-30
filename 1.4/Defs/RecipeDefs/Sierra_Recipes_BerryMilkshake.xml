@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef>
+    <defName>Sierra_MakeBerryMilkshakeSmall</defName>
+    <label>make berry milkshake</label>
+    <description>Make berry milkshake, a delightful and healthy treat.</description>
+    <jobString>Making berry milkshake.</jobString>
+    <workAmount>300</workAmount> <!-- Reference: Simple Meal -->
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+  	<allowMixingIngredients>true</allowMixingIngredients>
+		<targetCountAdjustment>1</targetCountAdjustment>
+    <!--<recipeUsers>
+      <li>FueledStove</li>
+      <li>ElectricStove</li>
+		</recipeUsers>-->
+    <ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Milk</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawBerries</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+		</ingredients>
+    <products>
+      <Sierra_BerryMilkshake>1</Sierra_BerryMilkshake>
+    </products>
+    <skillRequirements>
+        <Cooking>4</Cooking>
+    </skillRequirements>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>Sierra_MakeBerryMilkshakeMedium</defName>
+    <label>make berry milkshakes x4</label>
+    <description>Make berry milkshakes, a delightful and healthy treat.\n\nThis is a batch recipe that utilise a slightly more efficient production process.</description>
+    <jobString>Making berry milkshakes.</jobString>
+    <workAmount>1050</workAmount> <!-- Batch Bonus 3.5x -->
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+  	<allowMixingIngredients>true</allowMixingIngredients>
+		<targetCountAdjustment>1</targetCountAdjustment>
+    <!--<recipeUsers>
+      <li>FueledStove</li>
+      <li>ElectricStove</li>
+		</recipeUsers>-->
+    <ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Milk</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawBerries</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+		</ingredients>
+    <products>
+      <Sierra_BerryMilkshake>4</Sierra_BerryMilkshake>
+    </products>
+    <skillRequirements>
+        <Cooking>5</Cooking> <!-- Cooking for people is harder than cooking for just yourself -->
+    </skillRequirements>
+  </RecipeDef>
+
+  </Defs>
