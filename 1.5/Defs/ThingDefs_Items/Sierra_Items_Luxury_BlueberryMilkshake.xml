@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>Sierra_BlueberryMilkshake</defName>
+    <label>blueberry milkshake</label>
+    <description>A delightful shaken drink. Needs little preparation and fulfills the need for recreation, but it is not very nutritious and deteriorate quickly if not preserved.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Sierra_BlueberryMilkshake</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.88</drawSize>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <costList>
+      <Milk>2</Milk>
+      <Sierra_Blueberries>1</Sierra_Blueberries>
+    </costList>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <MarketValue>11</MarketValue> <!-- Total Value = Raw Ingredients Used x1.5 Rounded Down-->
+      <Mass>0.117</Mass> <!-- Rough Estimate based on ingredients -->
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>8</DeteriorationRate> <!-- Reference: Rough Mid-Point Basic Ingredient vs Special Ingredient(s) -->
+      <Nutrition>0.225</Nutrition> <!-- Total Nutrition = Raw Nutrition Used x1.5-->
+    </statBases>
+    <tickerType>Rare</tickerType>
+    <thingCategories>
+      <li>Sierra_Milkshakes</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>DesperateOnly</preferability>
+			<tasteThought>Sierra_Thought_DrankBlueberryMilkshake</tasteThought>
+      <foodType>Processed</foodType>
+      <joy>0.20</joy> <!-- Basic Joy Item + Special Ingredient Bonus -->
+      <joyKind>Sierra_Drinking_Milkshake</joyKind>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>3</daysToRotStart> <!-- Spoils 25% quicker than meals -->
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>

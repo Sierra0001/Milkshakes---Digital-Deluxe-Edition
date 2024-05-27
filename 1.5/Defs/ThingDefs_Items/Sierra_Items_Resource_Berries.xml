@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>Sierra_Blueberries</defName>
+    <label>blueberries</label>
+    <description>Blueberries. Nice to eat, even when raw.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/PlantFoodRaw/Sierra_Blueberries</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.2</MarketValue>
+      <Mass>0.027</Mass>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>14</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <ingestible>
+      <preferability>RawTasty</preferability>
+      <tasteThought></tasteThought>
+      <foodType>VegetableOrFruit</foodType>
+    </ingestible>
+  </ThingDef>
+
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>Sierra_Strawberries</defName>
+    <label>strawberries</label>
+    <description>Strawberries. Nice to eat, even when raw.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/PlantFoodRaw/Sierra_Strawberries</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.2</MarketValue>
+      <Mass>0.027</Mass>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>14</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <ingestible>
+      <preferability>RawTasty</preferability>
+      <tasteThought></tasteThought>
+      <foodType>VegetableOrFruit</foodType>
+    </ingestible>
+  </ThingDef>
+
+</Defs>

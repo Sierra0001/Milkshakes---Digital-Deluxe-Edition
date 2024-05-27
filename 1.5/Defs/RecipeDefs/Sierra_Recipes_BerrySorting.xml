@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef>
+    <defName>Sierra_SortMixedBerriesSmall</defName>
+    <label>sort berries</label>
+    <description>Sort two boxes of mixed berries into a box of blueberries and strawberries each.</description>
+    <jobString>sorting berries.</jobString>
+    <workAmount>75</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <!--<workSkill>Cooking</workSkill>-->
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+  	<allowMixingIngredients>true</allowMixingIngredients>
+		<targetCountAdjustment>1</targetCountAdjustment>
+    <recipeUsers>
+      <li>FueledStove</li>
+      <li>ElectricStove</li>
+		</recipeUsers>
+    <ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawBerries</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+    <products>
+      <Sierra_Blueberries>1</Sierra_Blueberries>
+      <Sierra_Strawberries>1</Sierra_Strawberries>
+    </products>
+    <!--<skillRequirements>
+        <Cooking>4</Cooking>
+    </skillRequirements>-->
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>Sierra_SortMixedBerriesMedium</defName>
+    <label>sort berries x4</label>
+    <description>Sort eight boxes of mixed berries into four boxes of blueberries and strawberries each.</description>
+    <jobString>sorting berries.</jobString>
+    <workAmount>265</workAmount> <!-- Batch Bonus 3.5x -->
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <!--<workSkill>Cooking</workSkill>-->
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+  	<allowMixingIngredients>true</allowMixingIngredients>
+		<targetCountAdjustment>1</targetCountAdjustment>
+    <recipeUsers>
+      <li>FueledStove</li>
+      <li>ElectricStove</li>
+		</recipeUsers>
+    <ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawBerries</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>
+		</ingredients>
+    <products>
+      <Sierra_Blueberries>4</Sierra_Blueberries>
+      <Sierra_Strawberries>4</Sierra_Strawberries>
+    </products>
+    <!--<skillRequirements>
+        <Cooking>4</Cooking>
+    </skillRequirements>-->
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>Sierra_CombineMixedBerriesSmall</defName>
+    <label>combine berries</label>
+    <description>Sort two boxes of blueberries and strawberries into two boxes of mixed berries.</description>
+    <jobString>sorting berries.</jobString>
+    <workAmount>75</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <!--<workSkill>Cooking</workSkill>-->
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+  	<allowMixingIngredients>true</allowMixingIngredients>
+		<targetCountAdjustment>1</targetCountAdjustment>
+    <recipeUsers>
+      <li>FueledStove</li>
+      <li>ElectricStove</li>
+		</recipeUsers>
+    <ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Sierra_Blueberries</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+  		<li>
+  			<filter>
+  				<thingDefs>
+						<li>Sierra_Strawberries</li>
+      		</thingDefs>
+  			</filter>
+  			<count>1</count>
+  		</li>
+		</ingredients>
+    <products>
+      <RawBerries>2</RawBerries>
+    </products>
+    <!--<skillRequirements>
+        <Cooking>4</Cooking>
+    </skillRequirements>-->
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>Sierra_CombineMixedBerriesMedium</defName>
+    <label>combine berries x4</label>
+    <description>Sort four boxes of blueberries and strawberries into four boxes of mixed berries.</description>
+    <jobString>sorting berries.</jobString>
+    <workAmount>265</workAmount> <!-- Batch Bonus 3.5x -->
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <!--<workSkill>Cooking</workSkill>-->
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+  	<allowMixingIngredients>true</allowMixingIngredients>
+		<targetCountAdjustment>1</targetCountAdjustment>
+    <recipeUsers>
+      <li>FueledStove</li>
+      <li>ElectricStove</li>
+		</recipeUsers>
+    <ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Sierra_Blueberries</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+  		<li>
+  			<filter>
+  				<thingDefs>
+						<li>Sierra_Strawberries</li>
+      		</thingDefs>
+  			</filter>
+  			<count>2</count>
+  		</li>
+		</ingredients>
+    <products>
+      <RawBerries>4</RawBerries>
+    </products>
+    <!--<skillRequirements>
+        <Cooking>4</Cooking>
+    </skillRequirements>-->
+  </RecipeDef>
+
+  </Defs>
